@@ -2,3 +2,16 @@
 h1 { color: #d54d7b; font-family: «Great Vibes», cursive; font-size: 165px; line-height: 160px; font-weight: normal; margin-bottom: 0px; margin-top: 40px; text-align: center; text-shadow: 0 1px 1px #fff; }
 </style>
 <h1>Этот сайт посвещается Shoobaru , игроку сервера DenisCraft</h1>
+<script language="JavaScript">
+	var img1="https://snowqueen.ru/media/catalog/product/cache/1/small_image/252x378/9df78eab33525d08d6e5fb8d27136e95/1/5/150999000_1_9.jpg";//Рисунок номер 1
+	var img2="https://cs.pikabu.ru/images/big_size_comm/2013-08_6/13775345544777.gif";//Рисунок номер 2
+	new Image().src=img2;
+	function zamena(cl){
+	if(cl){
+	document.all.img.src=img2;
+	}else{
+	document.all.img.src=img1;
+	}
+	}
+	document.write("<img name='img' src='"+img1+"' onClick='zamena(true)' >");
+	</script>
